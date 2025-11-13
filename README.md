@@ -37,12 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-   https://www.rituals.com/nl-nl/home
+ https://thebodyshop.nl/ 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <img src="rituals.jpg" width="375px" alt="Homepagina Rituals">
+  <img src="" width="375px" alt="bodyshop">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <img src="Advent.jpg" width="375px" alt="Adventkalender pagina">
+  <img src="" width="375px" alt="bodyshop">
  
 </details>
 
