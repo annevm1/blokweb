@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Anne van Mill (vervangen door jouw naam)
+  Anne van Mill 
 
   #### Je startniveau:
   Blauw (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Surface plane (kies uit responsive óf surface plane)
+  Responsive (kies uit responsive óf surface plane)
  
 </details>
 

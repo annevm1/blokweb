@@ -1,82 +1,151 @@
 .topbalk {
-    background-color: #efdfd4;
-    padding: 10px 20px;
+    background-color: #ffffff;
+    padding: 8px 14px;
     display: flex;
     height: 40px;
-    justify-content: center; /* horizontaal centreren */
+    justify-content: center; 
     align-items: center;    
-    width: 100%;            
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+             
 }
-
 .logo {
-height: 190px;        
-padding: 90px;
-
+    height: 25px;
+    justify-content: center; 
+    align-items: center;    
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #ffffff;
+
+  }
+
+  .bovenste-balk {
+    background-color: #02543e; 
+    color: white;           
+    text-align: center;     
+    font-size: 15px;          
+    font-weight: 600;        
+    padding: 8px 0;          
+
+    font-family: "aktiv-grotesk-thin", sans-serif;
+    overflow: hidden;          
+    white-space: nowrap;      
+  }
+
+
+
+  /* bron:chatgpt */
+  .bovenste-balk span {
+    display: inline-block;
+    padding-left: 100%;      
+    animation: scroll-left 15s linear infinite;
   }
   
-  /* Navbar styling */
-  .navbar {
-    background-color: #333;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
-  /* Navigatie links */
-  .navigatie {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigatie a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .navigatie a:hover {
-    color: #00bcd4;
-  }
-  
-  /* Hamburger knop */
-  .hamburger {
-    display: none; /* standaard verbergen */
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  }
-  
-  /* Responsive gedrag */
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block; /* toon hamburger op kleine schermen */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
     }
-  
-    .navigatie {
-      display: none; /* verberg menu standaard */
-      top: 60px;
-      right: 0;
-      background-color: #333;
-      flex-direction: column;
-      width: 200px;
+    100% {
+      transform: translateX(-80%);
     }
+  }
   
-    .navigatie.active {
-      display: flex; /* toon menu wanneer actief */
-    }
+
+    
+
   
-    .navigatie li {
-      padding: 10px;
+.homefoto {
+    width: 100vw;     
+    height: 82vh;    
+}
+
+
+
+
+  .tekst {
+      position: absolute;
+      top: 27%;              
+      left: 50%;
+      transform: translate(-50%, -50%);
       text-align: center;
-    }
+      color: white;
+      width: 100%;      
   }
+  
+
+  .tekst h1 {
+      font-size: 30px;
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+      font-style: normal;    
+      margin-bottom: 0;     
+}
+  
+
+  .tekst p {
+      font-size: 17px;
+      font-family: "aktiv-grotesk-thin", sans-serif;
+      margin-top: 5px;   
+
+  }
+    
+  
+  .tekst button {
+padding: 8px 20px;
+font-size: 15px;
+background-color: #0b4637;
+color: #ffffff;
+font-family: "aktiv-grotesk-thin", sans-serif
+}
+
+.tekst2 {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.cirkel {
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;
+  border-radius: 50%;   
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  row-gap: 50px;
+  flex-wrap: wrap; 
+}
+
+
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Serif", serif;
+  font-size: 32px;
+}
+
+.nieuwfoto {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.nieuwtekst {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.nieuwtekstp {
+  font-size: 16px;
+  text-align: center;
+}
+
