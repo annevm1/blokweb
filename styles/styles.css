@@ -1,0 +1,151 @@
+.topbalk {
+    background-color: #ffffff;
+    padding: 8px 14px;
+    display: flex;
+    height: 40px;
+    justify-content: center; 
+    align-items: center;    
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+             
+}
+.logo {
+    height: 25px;
+    justify-content: center; 
+    align-items: center;    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+
+  }
+
+  .bovenste-balk {
+    background-color: #02543e; 
+    color: white;           
+    text-align: center;     
+    font-size: 15px;          
+    font-weight: 600;        
+    padding: 8px 0;          
+
+    font-family: "aktiv-grotesk-thin", sans-serif;
+    overflow: hidden;          
+    white-space: nowrap;      
+  }
+
+
+
+  /* bron:chatgpt */
+  .bovenste-balk span {
+    display: inline-block;
+    padding-left: 100%;      
+    animation: scroll-left 15s linear infinite;
+  }
+  
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-80%);
+    }
+  }
+  
+
+    
+
+  
+.homefoto {
+    width: 100vw;     
+    height: 85vh;    
+}
+
+
+
+
+  .tekst {
+      position: absolute;
+      top: 27%;              
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      width: 100%;      
+  }
+  
+
+  .tekst h1 {
+      font-size: 30px;
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+      font-style: normal;    
+      margin-bottom: 0;     
+}
+  
+
+  .tekst p {
+      font-size: 17px;
+      font-family: "aktiv-grotesk-thin", sans-serif;
+      margin-top: 5px;   
+
+  }
+    
+  
+  .tekst button {
+padding: 8px 20px;
+font-size: 15px;
+background-color: #0b4637;
+color: #ffffff;
+font-family: "aktiv-grotesk-thin", sans-serif
+}
+
+.tekst2 {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.cirkel {
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;
+  border-radius: 50%;   
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  row-gap: 50px;
+  flex-wrap: wrap; 
+}
+
+
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Serif", serif;
+  font-size: 32px;
+}
+
+.nieuwfoto {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.nieuwtekst {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.nieuwtekstp {
+  font-size: 16px;
+  text-align: center;
+}
+
