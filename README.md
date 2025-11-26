@@ -39,10 +39,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
       <link rel="thebodyshop" href="https://thebodyshop.nl/" />
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <img src="images/bodyshophomepagina.png" width="375px" alt="homepagina bodyshop">
+  <img src="readme-images/bodyshophomepagina.png" width="375px" alt="homepagina bodyshop">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <img src="images/winkelwagentbs.png" width="375px" alt="winkelwagen">
+  <img src="readme-images/paginamaken.png" width="375px" alt="winkelwagen">
  
 </details>
 
@@ -66,7 +66,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/bodyshophomepagina.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
