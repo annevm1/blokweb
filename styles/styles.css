@@ -1,20 +1,19 @@
 .topbalk {
-    background-color: #ffffff;
-    padding: 8px 14px;
-    display: flex;
-    height: 40px;
-    justify-content: center; 
-    align-items: center;    
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-             
+  background-color: #ffffff;
+  padding: 8px 14px;
+  display: flex;
+  height: 40px;
+  justify-content: center; 
+  align-items: center;    
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
+
 .logo {
     height: 25px;
-    justify-content: center; 
-    align-items: center;    
-}
+  }
 
 body {
     margin: 0;
@@ -103,8 +102,8 @@ color: #ffffff;
 font-family: "aktiv-grotesk-thin", sans-serif
 }
 
-.tekst2 {
-  font-size: 20px;
+h2 {
+  font-size: 30px;
   font-family: "PT Serif", serif;
   text-align: center;
 }
@@ -124,13 +123,18 @@ font-family: "aktiv-grotesk-thin", sans-serif
 }
 
 
-
-
-h2 {
-  display: flex;
-  justify-content: center;
+h3 {
+  margin-top: 70px;
+  font-size: 30px;
   font-family: "PT Serif", serif;
-  font-size: 32px;
+  margin-left: 19px;
+}
+
+
+h4 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
 }
 
 .nieuwfoto {
@@ -149,3 +153,106 @@ h2 {
   text-align: center;
 }
 
+
+
+.bestsellers {
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;  
+}
+
+
+button {
+  padding: 15px 25px;
+  font-size: 13px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+  color: black;
+  padding: 12px;
+}
+
+
+
+/*bron chatgpt*/
+.carousel {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+.carousel img {
+  flex: 0 0 auto;       
+  scroll-snap-align: start;
+}
+
+ul {
+  list-style: none;  
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+
+/*bron: FED dlo pagina*/
+.email-input {
+  width: 100%;               
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;        
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.email-input::placeholder {
+  text-align: center;        
+  color: #888;               
+}
+
+
+
+
+.carousel li p:nth-of-type(2) {
+  color: #777;
+  font-size: 13px;
+  text-decoration: none;  /* verwijdert de onderstreping */
+}
+
+.carousel li p:nth-of-type(3) {
+  color: rgb(235, 50, 50);
+  font-size: 13px;
+}
+
+.carousel li button {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border: 2px solid #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.carousel li button:active {
+  background-color: #000000; /* kleur tijdens klik */
+  color: white;         
+}
+
+
+
+
+.carousel2 {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+.carousel2 img {      
+  width: 300px;             
+  height: auto;       
+}
+
+.infogroen {
+  background-color: #e5e6cb;
+}

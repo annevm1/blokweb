@@ -37,12 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
- https://thebodyshop.nl/ 
+      <link rel="thebodyshop" href="https://thebodyshop.nl/" />
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <img src="" width="375px" alt="bodyshop">
+  <img src="images/bodyshophomepagina.png" width="375px" alt="homepagina bodyshop">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <img src="" width="375px" alt="bodyshop">
+  <img src="images/winkelwagentbs.png" width="375px" alt="winkelwagen">
  
 </details>
 
@@ -74,6 +74,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
+link naar figma breakdown schets geheel 
+
+  <link rel="figma breakdown" href="https://www.figma.com/proto/99cxJ3oCvlksaJLmzPMKTp/FED-break?node-id=0-1&t=LPtRHy2lMBXBFXcU-1" />
+
 </details>
 
 
@@ -87,6 +91,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  Over het algemeen gaat het coderen best goed. Wel heb ik geprobeerd om een hamburgermenu te maken, dit ging nog niet goed dus ik ben eerst bezig met het samenstellen van mijn HTML-code en daarbij alvast wat CSS te maken. 
   
 
 
@@ -103,10 +109,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Code goed opstellen met spaties -> Prettier gebruiken
+  - Breakdown schets gedetailleerder maken -> alle elementen erin zetten
+  - Toegankelijkheidstest uitwerken
+  - Minder classes gebruiken -> elementen aanroepen in css niet door aparte classes, geef section een klas maar roep de verschillende elementen apart aan -> wordt overzichtelijker 
 
 </details>
 
@@ -120,11 +126,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ -  Minder classes gebruikt -> nog te veel?
+ - Met wat hulp van Ivo heb ik de carousel kunnen maken zoals ik wil dus dat gaat goed. Ik ben nogsteeds bezig met het hamburgermenu maken, dat is nog niet gelukt. Het linken van de extra pagina gaat goed.
+ - Ik wil onder alle cirkels de titels van de producten zetten, ik weet nog niet hoe ik dit ga doen. 
+ - Ook is mijn website niet over heel de breedte als je uitzoomt, dit wil ik aanpassen. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+
+  HTML code doornemen en kijken of alles klopt (kloppen de classes, sections en divs, gebruik van h1 etc goed?)
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
