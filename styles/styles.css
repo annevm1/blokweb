@@ -219,7 +219,7 @@ h5 {
 .carousel li p:nth-of-type(2) {
   color: #777;
   font-size: 13px;
-  text-decoration: none;  /* verwijdert de onderstreping */
+  text-decoration: none;  
 }
 
 .carousel li p:nth-of-type(3) {
