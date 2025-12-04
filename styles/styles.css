@@ -11,39 +11,42 @@
   width: 100%;
 }
 
-.logo {
+.topbalk img {
     height: 25px;
   }
 
-body {
+
+html, body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-
-  }
-
-  .bovenste-balk {
-    background-color: #02543e; 
-    color: white;           
-    text-align: center;     
-    font-size: 15px;          
-    font-weight: 600;        
-    padding: 8px 0;          
-
-    font-family: "aktiv-grotesk-thin", sans-serif;
-    overflow: hidden;          
-    white-space: nowrap;      
+    overflow-x: hidden;
   }
 
 
+main img {
+  width: 100vw;     
+  height: 85vh;    
+  object-fit: cover;
+}
 
-  /* bron:chatgpt */
-  .bovenste-balk span {
-    display: inline-block;
-    padding-left: 100%;      
-    animation: scroll-left 15s linear infinite;
-  }
-  
+.bovenste-balk {
+  background-color: #02543e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 0;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 15s linear infinite;
+}
+
+
   
   @keyframes scroll-left {
     0% {
@@ -55,17 +58,6 @@ body {
   }
   
 
-    
-
-  
-.homefoto {
-    width: 100vw;     
-    height: 85vh;    
-}
-
-
-
-
   .tekst {
       position: absolute;
       top: 27%;              
@@ -76,21 +68,10 @@ body {
       width: 100%;      
   }
   
-
-  .tekst h1 {
-      font-size: 30px;
-      font-family: "PT Serif", serif;
-      font-weight: 400;
-      font-style: normal;    
-      margin-bottom: 0;     
-}
-  
-
   .tekst p {
       font-size: 17px;
       font-family: "aktiv-grotesk-thin", sans-serif;
       margin-top: 5px;   
-
   }
     
   
@@ -106,14 +87,11 @@ h2 {
   font-size: 30px;
   font-family: "PT Serif", serif;
   text-align: center;
+  margin-top: 1em;
 }
 
-.cirkel {
-  width: 165px;
-  height: 165px;
-  background-color: #00514B;
-  border-radius: 50%;   
-}
+
+
 .items {
   display: flex;
   justify-content: center;
@@ -122,6 +100,22 @@ h2 {
   flex-wrap: wrap; 
 }
 
+.items li {
+list-style: none;
+}
+
+.items p {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.items img{
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;
+  border-radius: 50%;   
+}
 
 h3 {
   margin-top: 70px;
@@ -139,7 +133,10 @@ h4 {
 
 .nieuwfoto {
   width: 100%;
+  height: 100%;
   border-radius: 15px;
+  object-fit: cover;
+
 }
 
 .nieuwtekst {
@@ -151,27 +148,9 @@ h4 {
 .nieuwtekstp {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
-
-
-.bestsellers {
-  width: 165px;
-  height: 165px;
-  background-color: #00514B;  
-}
-
-
-button {
-  padding: 15px 25px;
-  font-size: 13px;
-  background-color: #ffffff;
-  color: #ffffff;
-  border-radius: 5px;
-  font-family: "aktiv-grotesk-thin", sans-serif;
-  color: black;
-  padding: 12px;
-}
 
 
 
@@ -182,10 +161,22 @@ button {
   gap: 20px;
   padding: 20px;
 }
+
 .carousel img {
   flex: 0 0 auto;       
   scroll-snap-align: start;
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;  
 }
+
+.carousel2 {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+
 
 ul {
   list-style: none;  
@@ -196,23 +187,6 @@ h5 {
   font-family: "PT Serif", serif;
   text-align: center;
 }
-
-
-/*bron: FED dlo pagina*/
-.email-input {
-  width: 100%;               
-  padding: 12px 20px;
-  font-size: 16px;
-  text-align: center;        
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-.email-input::placeholder {
-  text-align: center;        
-  color: #888;               
-}
-
 
 
 
@@ -232,6 +206,14 @@ h5 {
   font-size: 13px;
   border: 2px solid #000;
   transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 15px 25px;
+  font-size: 13px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+  color: black;
+  padding: 12px;
 }
 
 .carousel li button:active {
@@ -256,3 +238,85 @@ h5 {
 .infogroen {
   background-color: #e5e6cb;
 }
+
+button {
+  padding: 8px 20px;
+  font-size: 15px;
+  background-color: #0b4637;
+  color: #ffffff;
+  font-family: "aktiv-grotesk-thin", sans-serif; 
+}
+
+/*bron: FED dlo pagina*/
+footer input {
+  width: 100%;               
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;        
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer input::placeholder {
+  text-align: center;        
+  color: #888;               
+}
+
+
+.infogroen h3 {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+
+
+
+}
+.infogroen p {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.infogroen img {
+height: 10px;
+}
+
+
+
+
+/*bron: chatgptn */
+.nieuw-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .nieuw-item {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .nieuw-item.second {
+    flex-direction: row-reverse;
+  }
+
+  .nieuwtekstp {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .nieuwfoto {
+    width: 50%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+
