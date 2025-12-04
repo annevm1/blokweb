@@ -1,0 +1,322 @@
+.topbalk {
+  background-color: #ffffff;
+  padding: 8px 14px;
+  display: flex;
+  height: 40px;
+  justify-content: center; 
+  align-items: center;    
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.topbalk img {
+    height: 25px;
+  }
+
+
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+
+
+main img {
+  width: 100vw;     
+  height: 85vh;    
+  object-fit: cover;
+}
+
+.bovenste-balk {
+  background-color: #02543e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 0;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 15s linear infinite;
+}
+
+
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-80%);
+    }
+  }
+  
+
+  .tekst {
+      position: absolute;
+      top: 27%;              
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      width: 100%;      
+  }
+  
+  .tekst p {
+      font-size: 17px;
+      font-family: "aktiv-grotesk-thin", sans-serif;
+      margin-top: 5px;   
+  }
+    
+  
+  .tekst button {
+padding: 8px 20px;
+font-size: 15px;
+background-color: #0b4637;
+color: #ffffff;
+font-family: "aktiv-grotesk-thin", sans-serif
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  margin-top: 1em;
+}
+
+
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  row-gap: 50px;
+  flex-wrap: wrap; 
+}
+
+.items li {
+list-style: none;
+}
+
+.items p {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.items img{
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;
+  border-radius: 50%;   
+}
+
+h3 {
+  margin-top: 70px;
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  margin-left: 19px;
+}
+
+
+h4 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.nieuwfoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+
+}
+
+.nieuwtekst {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.nieuwtekstp {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+
+
+/*bron chatgpt*/
+.carousel {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+
+.carousel img {
+  flex: 0 0 auto;       
+  scroll-snap-align: start;
+  width: 165px;
+  height: 165px;
+  background-color: #00514B;  
+}
+
+.carousel2 {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+
+
+ul {
+  list-style: none;  
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+
+
+.carousel li p:nth-of-type(2) {
+  color: #777;
+  font-size: 13px;
+  text-decoration: none;  
+}
+
+.carousel li p:nth-of-type(3) {
+  color: rgb(235, 50, 50);
+  font-size: 13px;
+}
+
+.carousel li button {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  border: 2px solid #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 15px 25px;
+  font-size: 13px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+  color: black;
+  padding: 12px;
+}
+
+.carousel li button:active {
+  background-color: #000000; 
+  color: white;         
+}
+
+
+
+
+.carousel2 {
+  display: flex;
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+.carousel2 img {      
+  width: 300px;             
+  height: auto;       
+}
+
+.infogroen {
+  background-color: #e5e6cb;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 15px;
+  background-color: #0b4637;
+  color: #ffffff;
+  font-family: "aktiv-grotesk-thin", sans-serif; 
+}
+
+/*bron: FED dlo pagina*/
+footer input {
+  width: 100%;               
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;        
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer input::placeholder {
+  text-align: center;        
+  color: #888;               
+}
+
+
+.infogroen h3 {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+
+
+
+}
+.infogroen p {
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.infogroen img {
+height: 10px;
+}
+
+
+
+
+/*bron: chatgptn */
+.nieuw-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .nieuw-item {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .nieuw-item.second {
+    flex-direction: row-reverse;
+  }
+
+  .nieuwtekstp {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .nieuwfoto {
+    width: 50%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+
