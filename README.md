@@ -196,7 +196,7 @@ Wat wil ik vragen tijdens het voortgangsgesprek?
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Ik ben lekker bezig geweest met verder coderen en dingen uit te proberen. Op dit moment ben ik bezig met het responsive maken van mijn website, ik heb de afbeeldingen met een mediaquery erin gezet zodat deze verschuiven bij verschillende formaten. Ook de carousel met producten schuiven mee. Daarnaast heb ik in mijn HTML-code de lijst met producten en de cirkels veranderd naar Li ipv losse divs en p'tjes. Ook heeft Ivo mij gehoplen om de namen onder de cirkels te krijgen en dat deze naar de productpagina leiden als je erop klikt. Ik heb een transparante H1 toegevoegd voor de toegankelijkheid. 
-  
+
    <img src="readme-images/responsive.png" width="375px" alt="breakdown van de hele pagina">
 
  
@@ -231,7 +231,7 @@ Wat wil ik vragen tijdens het voortgangsgesprek?
   <img src="readme-images/home.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/cirkels.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/producten.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/vlakken" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/vlakken.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/verzending.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/product.png" width="375px" alt="uitomst opdracht 1">
 
