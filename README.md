@@ -56,6 +56,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+Screenreader
+  Ik heb de screenreader geopend via de instellingen van mijn MacBook. Eigenlijk begon de screenreader gelijk alles al voor te lezen. 
+  - Om alleen de headings te laten lezen heb ik met de sneltoets Control + Option + I het menu kunnen openen en daaruit kunnen kiezen dat ik alle headings wilde voor laten lezen. Ik kon door gebruik te maken van de pijljtes op mijn toetsenbord makkelijk navigeren door het menu heen. Dit pakte de screenreader goed op.
+  - Daarnaast heb ik de screenreader alle linkjes voor laten lezen door de sneltoets Control + Option + U. Dit pakte de screenreader goed op en hij las elke link voor, ook gaf de screenreader aan welke links ik al bezocht had. 
+  - Daarnaast gad de screenreader tips als ik op buttons stond en hoe ik deze kon openen om naar een andere pagina te gaan. 
+
+Kleurentest
+- De kleuren van de bodyshop website zijn over het algemeen goed leesbaar. Ik heb via de Inspecteren 
+
+
+- Om alleen de headings te laten lezen, heb ik met de sneltoets Control + Option + I het menu geopend en daar gekozen dat ik alle headings wilde laten voorlezen. Met de pijltjestoetsen kon ik makkelijk door de headings navigeren. Dit werkte goed en gaf meteen een duidelijk overzicht van de structuur van de pagina.
+
+- Ik heb de screenreader ook alle links laten voorlezen met Control + Option + U. Hij las elke link duidelijk voor en gaf zelfs aan welke links ik al bezocht had. 
+
+- De screenreader gaf ook tips bij buttons, bijvoorbeeld hoe ik ze kon activeren om naar een andere pagina te gaan. Dit maakt het veel makkelijker om te begrijpen hoe je met de website kunt interacteren zonder te kijken.
+
+- Bij formulieren merkte ik dat de labels van invoervelden goed werden herkend. Bijvoorbeeld bij de zoekbalk of de nieuwsbriefinschrijving hoorde ik precies wat ik moest invullen.
+
+- Ook de afbeeldingen hadden goede alt-teksten. De screenreader vertelde wat er op de afbeeldingen stond, wat handig is als je ze niet kunt zien.
+
+- De navigatie was overzichtelijk en werd goed herkend door de screenreader. Zo hoefde ik niet steeds te zoeken naar knoppen of links en kon ik snel door de website bewegen.
+
+- Alles op de website kon ik bedienen met alleen mijn toetsenbord, zonder muis. Dit is fijn voor mensen die een muis niet kunnen gebruiken.
+
+- De teksten en kleuren op de website zijn duidelijk en hebben goed contrast. Dat maakt het lezen makkelijker, vooral voor mensen met slecht zicht of kleurenblindheid.
+
+- Bij het invullen van formulieren gaf de screenreader duidelijke foutmeldingen. Zo wist ik meteen wat ik moest aanpassen.
+
+- De website werkt ook goed op verschillende schermgroottes. Zelfs als het scherm kleiner wordt, blijft de screenreader alles goed voorlezen en kan ik makkelijk navigeren.
+
 </details>
 
 
@@ -67,12 +97,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/bodyshophomepagina.png" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 link naar figma breakdown schets geheel 
 
@@ -186,6 +210,8 @@ Wat wil ik vragen tijdens het voortgangsgesprek?
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+   <img src="readme-images/responsive.png" width="375px" alt="breakdown van de hele pagina">
 
   Op dit moment ben ik bezig met het responsive maken van mijn website, ik heb de afbeeldingen met een mediaquery erin gezet zodat deze verschuiven bij verschillende formaten. Ook de carousel met producten schuiven mee. Daarnaast heb ik in mijn HTML-code de lijst met producten en de cirkels veranderd naar <Li> ipv losse divs en p'tjes. Ook heeft Ivo mij gehoplen om de namen onder de cirkels te krijgen en dat deze naar de productpagina leiden als je erop klikt.
 
