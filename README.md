@@ -105,6 +105,11 @@ link naar figma breakdown schets geheel
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+  Wat wil ik vragen tijdens het voortgangsgesprek?
+  - Ziet de code er semantisch correct uit?
+  - Hoe website goed op GitHub zetten?
+
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -136,7 +141,6 @@ link naar figma breakdown schets geheel
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  HTML code doornemen en kijken of alles klopt (kloppen de classes, sections en divs, gebruik van h1 etc goed?)
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -144,14 +148,16 @@ link naar figma breakdown schets geheel
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Wat wil ik vragen tijdens het voortgangsgesprek?
+- HTML code doornemen en kijken of alles klopt (kloppen de classes, sections en divs, gebruik van h1 etc goed?)
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Kijken naar de H1 en H2, teveel gebruik gemaakt van H, alle H moet een H2 worden 
+  - Alleen de section met de info over gratis verzending kopjes mogen H3 worden
+  - Maak een transparante H1 als titelpagina maar zorg ervoor dat hij niet zichtbaar is in de website maar wel voor een screenreader 
+  - Cirkelclasses kunnen weg en kunnen aangeroepen worden als .items img
 
 </details>
 
@@ -181,6 +187,8 @@ link naar figma breakdown schets geheel
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Op dit moment ben ik bezig met het responsive maken van mijn website, ik heb de afbeeldingen met een mediaquery erin gezet zodat deze verschuiven bij verschillende formaten. Ook de carousel met producten schuiven mee. Daarnaast heb ik in mijn HTML-code de lijst met producten en de cirkels veranderd naar <Li> ipv losse divs en p'tjes. Ook heeft Ivo mij gehoplen om de namen onder de cirkels te krijgen en dat deze naar de productpagina leiden als je erop klikt.
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -191,19 +199,21 @@ link naar figma breakdown schets geheel
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Wat wil ik vragen tijdens het voortgangsgesprek? 
+- Is de content genoeg op de website?
+- Is de code correct?
+- De eerste lijst met <li> items heeft geen <ul> omdat als ik deze toevoeg verschuiven de items, hoe los ik dit op?
+- Hoe hamburger menu maken?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Javascript link buiten de <footer> plaatsen
+  - <ul> om de eerste lijst met <li> zetten door de class om de <ul> te zetten en niet om de section
+  - Om de juiste fonts te krijgen die worden gebruikt op de officiele website moet ik kijken bij Inspecteren -> Network. En dan de juiste fonts downloaden en de link in html zetten
+  - Code van de hamburger opdracht op de FED Dlo pagina nog een keer proberen
 
 </details>
-
-
-
 
 
 ## Eindgesprek (week 5)
