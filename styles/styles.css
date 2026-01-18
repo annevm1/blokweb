@@ -1,3 +1,29 @@
+
+
+
+:root {
+  /* Basis kleuren (light mode) */
+  --color-bg: #ffffff;
+  --color-text: #222222;
+
+  --color-topbalk-bg: #ffffff;
+  --color-bovenste-balk-bg: #02543e;
+  --color-bovenste-balk-text: #ffffff;
+
+  --color-button-bg: #0b4637;
+  --color-button-text: #ffffff;
+
+  --color-carousel-bg: #00514B;
+  --color-carousel-text-secondary: #777777;
+  --color-carousel-text-price: #eb3232;
+
+  --color-infogroen-bg: #e5e6cb;
+  --color-items-text: #000000;
+}
+
+
+
+
 .topbalk {
   background-color: #ffffff;
   padding: 8px 14px;
@@ -319,7 +345,7 @@ height: 10px;
 
 /* Tip van klasgenoot css tricks: Dark Mode*/
 
-   @media (prefers-color-scheme: dark) {
+   /*@media (prefers-color-scheme: dark) {
 
     body, html {
       background: #0d0d0d;
@@ -355,6 +381,76 @@ height: 10px;
   .productpagina h2 {
   text-align: left;
   }
+*/
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.topbalk {
+  background-color: var(--color-topbalk-bg);
+}
+
+.bovenste-balk {
+  background-color: var(--color-bovenste-balk-bg);
+  color: var(--color-bovenste-balk-text);
+}
+
+button,
+.tekst button,
+.carousel li button,
+#ML button {
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+}
+
+.items img,
+.carousel img {
+  background-color: var(--color-carousel-bg);
+}
+
+.carousel li p:nth-of-type(2) {
+  color: var(--color-carousel-text-secondary);
+}
+
+.carousel li p:nth-of-type(3) {
+  color: var(--color-carousel-text-price);
+}
+
+.infogroen {
+  background-color: var(--color-infogroen-bg);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0d0d0d;
+    --color-text: #eaeaea;
+
+    --color-topbalk-bg: #111111;
+    --color-bovenste-balk-bg: #033629;
+    --color-bovenste-balk-text: #ffffff;
+
+    --color-button-bg: #0b4637;
+    --color-button-text: #ffffff;
+
+    --color-carousel-bg: #00514B;
+    --color-carousel-text-secondary: #cccccc;
+    --color-carousel-text-price: #ff5555;
+
+    --color-infogroen-bg: #22221a;
+    --color-items-text: #ffffff;
+  }
+}
+
+.items p {
+  color: var(--color-items-text);
+}
+
+  
+
+
 
 
 
@@ -385,4 +481,7 @@ padding-left: 15px;
   color: black;
   padding: 12px;
 }
+
+
+
 

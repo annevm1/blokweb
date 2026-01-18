@@ -1,95 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Body Shop</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/rmv0uzy.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://cdn.shopify.com/s/files/1/0955/0381/0906/files/Recoleta-SemiBold.woff2" />
   </head>
 
   <body>
     <header>
-      <nav>
+
+      <section class="bovenste-balk">
+        <p>T/m zondag: 10% korting op onze Adventkalenders!</p>
+      </section>
+  
+      <nav class="topbalk">
         <h1 hidden>Homepagina</h1>
-  
-        <section class="bovenste-balk">
-          <p>T/m zondag: 10% korting op onze Adventkalenders! Voorwaarden</p>
-        </section>
-  
-        <section class="topbalk">
-          <a href="index.html">
-            <img src="images/bodyshoplogo.png" alt="logo" />
-          </a>
-        </section>
-  
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <a href="index.html">
+          <img src="images/bodyshoplogo.png" alt="The Body Shop logo" />
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productpagina.html">Producten</a></li>
+          <li><a href="#nieuw">Nieuw</a></li>
+          <li><a href="#bestsellers">Bestsellers</a></li>
+          <li><a href="#cadeausets">Cadeausets</a></li>
+          <li><a href="#over-ons">Over Ons</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
+
+      <div class="overlay" id="overlay"></div>
+      
     </header>
 
     <main>
       <section>
-        <img src="images/homefoto.png" alt="homeschermfoto" />
+        <img src="images/homefoto.png" alt="Foto op de homepagina met The Body Shop producten" />
+
+        <div class="tekst">
+          <h2>Geef verwenmomenten cadeau</h2>
+          <p>Met onze nieuwe cadeausets</p>
+          <button>NU ONTDEKKEN</button>
+        </div>
       </section>
 
-      <div class="tekst">
-        <h2>Geef verwenmomenten cadeau</h2>
-        <p>Met onze nieuwe cadeausets</p>
-        <button>NU ONTDEKKEN</button>
-      </div>
-
-      <div>
-        <h2>Veel geshopt door onze fans</h2>
-      </div>
       <section>
+        <h2>Veel geshopt door onze fans</h2>
+
         <ul class="items">
           <li>
             <a href="productpagina.html">
-              <img src="images/sugarpumpkin.png" alt="foto" />
+              <img src="images/sugarpumpkin.png" alt="Sugar Pumpkin Productlijn" />
               <p>SUGAR PUMPKIN</p>
             </a>
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/hemp.png" alt="foto" />
+              <img src="images/hemp.png" alt="Hemp Productlijn" />
               <p>HEMP</p>
             </a>
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/vitaminee.png" alt="foto" />
+              <img src="images/vitaminee.png" alt="Vitamine E Productlijn" />
               <p>VITAMINE E</p>
             </a>
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/shea.png" alt="foto" />
+              <img src="images/shea.png" alt="Shea Productlijn" />
               <p>SHEA</p>
             </a>
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/ginger.png" alt="foto" />
+              <img src="images/ginger.png" alt="Ginger Productlijn" />
               <p>GINGER</p>
             </a>
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/whitemusk.png" alt="foto" />
+              <img src="images/whitemusk.png" alt="Whitemusk Productlijn" />
               <p>WHITE MUSK</p>
             </a>
           </li>
         </ul>
       </section>
       
-      <h2>Onze bestsellers</h2>
-
       <section>
+        <h2>Onze bestsellers</h2>
+
         <ul class="carousel">
           <li>
             <a href="productpagina.html">
-              <img src="images/sheabutter.png" alt="fotosheabutter" />
+              <img src="images/sheabutter.png" alt="Shea Body Butter" />
             </a>
             <p>Shea Body Butter</p>
             <p>96 uur lang hydratatie voor de droge huid</p>
@@ -98,7 +113,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/gingerscalp.png" alt="fotosheabutter" />
+              <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
             <p>Ginger Scalp Care Shampoo</p>
             <p>Voor een droge, schilferige hoofdhuid</p>
@@ -107,7 +122,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/sheabutter.png" alt="fotosheabutter" />
+              <img src="images/sheabutter.png" alt="Shea Body Butter" />
             </a>
             <p>Shea Body Butter hgygyhgjghjghgh</p>
             <p>96 uur lang hydratatie voor de droge huid</p>
@@ -116,7 +131,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/gingerscalp.png" alt="fotosheabutter" />
+              <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
             <p>Ginger Scalp Care Shampoo</p>
             <p>Voor een droge, schilferige hoofdhuid</p>
@@ -125,7 +140,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/gingerscalp.png" alt="fotosheabutter" />
+              <img src="images/gingerscalp.png" alt="Shea Body Butter" />
             </a>
             <p>Ginger Scalp Care Shampoo</p>
             <p>Voor een droge, schilferige hoofdhuid</p>
@@ -134,7 +149,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/gingerscalp.png" alt="fotosheabutter" />
+              <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
             <p>Ginger Scalp Care Shampoo</p>
             <p>Voor een droge, schilferige hoofdhuid</p>
@@ -144,34 +159,31 @@
         </ul>
       </section>
 
-
-
       <section>
         <h2>Nieuw</h2>
     
         <div class="nieuw-item">
-          <img src="images/feestdagenbody.png" alt="Pakket feestdagen" class="nieuwfoto"/>
+          <img src="images/feestdagenbody.png" alt="Special Editions voor de feestdagen" class="nieuwfoto"/>
           <div class="nieuwtekstp">
             <h2>Bodycare speciaal voor de feestdagen</h2>
             <p>Check onze Special Editions voor Sint en Kerst: Cranberry Crush, Caramel Cuddle en Sugarplum Passion – heerlijk voor jezelf en leuk om cadeau te doen!</p>
-            <a href="productpagina.html">
-            <button>NU ONTDEKKEN</button>
-          </a>
+            <button onclick="location.href='productpagina.html'">
+              NU ONTDEKKEN
+            </button>
           </div>
         </div>
         
         <div class="nieuw-item second">
-          <img src="images/groenefoto.png" alt="Pakket feestdagen" class="nieuwfoto"/>
+          <img src="images/groenefoto.png" alt="Wrapped in Love: nieuwe collectie cadeausets" class="nieuwfoto"/>
           <div class="nieuwtekstp">
-            <h2>Wrapped in Love: onze gloednieuwe collectie cadeau</h2>
+            <h2>Wrapped in Love: onze gloednieuwe collectie cadeausets</h2>
             <p>Wat je nu ook zoekt, iets kleins voor in een schoen of een luxe verwenset, bij de cadeausets van The Body Shop vind je zeker wat je zoekt!</p>
-            <a href="productpagina.html">
-            <button>NU ONTDEKKEN</button>
-            </a>
+            <button onclick="location.href='productpagina.html'">
+              NU ONTDEKKEN
+            </button>
           </div>
         </div>        
       </section>
-
 
       <section class="infogroen">
         <h3>Gratis verzending vanaf $50</h3>
@@ -186,15 +198,11 @@
 
     </main>
     
-    
     <footer>
       <h2>Meld je aan voor onze nieuwsbrief!</h2>
       <input type="email" placeholder="email@nieuwsbrief.com"/>
     </footer>
 
-  <script src="script.js"></script>
-
+    <script src="script.js"></script>
   </body>
 </html>
-
-
