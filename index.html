@@ -4,50 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Body Shop</title>
+    
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/rmv0uzy.css" />
+    <link rel="icon" type="image/png" href="images/favicontbs.png" />
     <link rel="preconnect" href="https://cdn.shopify.com/s/files/1/0955/0381/0906/files/Recoleta-SemiBold.woff2" />
+    
+    <script defer src="scripts/script.js"></script>
   </head>
-
+  
   <body>
     <header>
-
-      <section class="bovenste-balk">
+      <div class="bovenste-balk">
         <p>T/m zondag: 10% korting op onze Adventkalenders!</p>
-      </section>
-  
-      <nav class="topbalk">
-        <h1 hidden>Homepagina</h1>
+      </div>
 
-        <div class="hamburger" id="hamburger">
+      <div class="topbalk">
+        <button class="hamburger" aria-label="menu openen">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
 
         <a href="index.html">
           <img src="images/bodyshoplogo.png" alt="The Body Shop logo" />
         </a>
+      </div>
 
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="productpagina.html">Producten</a></li>
-          <li><a href="#nieuw">Nieuw</a></li>
-          <li><a href="#bestsellers">Bestsellers</a></li>
-          <li><a href="#cadeausets">Cadeausets</a></li>
-          <li><a href="#over-ons">Over Ons</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav class="menu">
+        <button class="sluit">✕</button>
+        <ul>
+          <li><a href="productpagina.html">LICHAAM / BODYCARE</a></li>
+          <li><a href="productpagina.html">GEZICHT / SKINCARE</a></li>
+          <li><a href="productpagina.html">HAAR / HAIRCARE</a></li>
+          <li><a href="productpagina.html">MAKE-UP</a></li>
+          <li><a href="productpagina.html">PARFUMS & GEURLIJNEN</a></li>
+          <li><a href="productpagina.html">CADEAUS</a></li>
         </ul>
       </nav>
-
-      <div class="overlay" id="overlay"></div>
-      
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <img src="images/homefoto.png" alt="Foto op de homepagina met The Body Shop producten" />
-
+        
         <div class="tekst">
           <h2>Geef verwenmomenten cadeau</h2>
           <p>Met onze nieuwe cadeausets</p>
@@ -55,7 +55,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="populaire-producten">
         <h2>Veel geshopt door onze fans</h2>
 
         <ul class="items">
@@ -97,8 +97,8 @@
           </li>
         </ul>
       </section>
-      
-      <section>
+
+      <section class="bestsellers">
         <h2>Onze bestsellers</h2>
 
         <ul class="carousel">
@@ -124,7 +124,7 @@
             <a href="productpagina.html">
               <img src="images/sheabutter.png" alt="Shea Body Butter" />
             </a>
-            <p>Shea Body Butter hgygyhgjghjghgh</p>
+            <p>Shea Body Butter</p>
             <p>96 uur lang hydratatie voor de droge huid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -140,7 +140,7 @@
           </li>
           <li>
             <a href="productpagina.html">
-              <img src="images/gingerscalp.png" alt="Shea Body Butter" />
+              <img src="images/gingerscalp.png" alt="Ginger Scalp Care Shampoo" />
             </a>
             <p>Ginger Scalp Care Shampoo</p>
             <p>Voor een droge, schilferige hoofdhuid</p>
@@ -159,50 +159,62 @@
         </ul>
       </section>
 
-      <section>
+      <section class="nieuwe-producten">
         <h2>Nieuw</h2>
-    
+
         <div class="nieuw-item">
-          <img src="images/feestdagenbody.png" alt="Special Editions voor de feestdagen" class="nieuwfoto"/>
+          <img src="images/feestdagenbody.png" alt="Special Editions voor de feestdagen" class="nieuwfoto" />
+          
           <div class="nieuwtekstp">
             <h2>Bodycare speciaal voor de feestdagen</h2>
-            <p>Check onze Special Editions voor Sint en Kerst: Cranberry Crush, Caramel Cuddle en Sugarplum Passion – heerlijk voor jezelf en leuk om cadeau te doen!</p>
-            <button onclick="location.href='productpagina.html'">
-              NU ONTDEKKEN
-            </button>
+            <p>
+              Check onze Special Editions voor Sint en Kerst: Cranberry Crush,
+              Caramel Cuddle en Sugarplum Passion – heerlijk voor jezelf en leuk
+              om cadeau te doen!
+            </p>
+            <button onclick="location.href='productpagina.html'">NU ONTDEKKEN</button>
           </div>
         </div>
-        
+
         <div class="nieuw-item second">
-          <img src="images/groenefoto.png" alt="Wrapped in Love: nieuwe collectie cadeausets" class="nieuwfoto"/>
+          <img src="images/groenefoto.png" alt="Wrapped in Love: nieuwe collectie cadeausets" class="nieuwfoto" />
+          
           <div class="nieuwtekstp">
             <h2>Wrapped in Love: onze gloednieuwe collectie cadeausets</h2>
-            <p>Wat je nu ook zoekt, iets kleins voor in een schoen of een luxe verwenset, bij de cadeausets van The Body Shop vind je zeker wat je zoekt!</p>
-            <button onclick="location.href='productpagina.html'">
-              NU ONTDEKKEN
-            </button>
+            <p>
+              Wat je nu ook zoekt, iets kleins voor in een schoen of een luxe
+              verwenset, bij de cadeausets van The Body Shop vind je zeker wat
+              je zoekt!
+            </p>
+            <button onclick="location.href='productpagina.html'">NU ONTDEKKEN</button>
           </div>
-        </div>        
+        </div>
       </section>
 
       <section class="infogroen">
-        <h3>Gratis verzending vanaf $50</h3>
-        <p>Levertijd 3 tot 4 werkdagen. Alle bestellingen worden verzonden met tracking.</p>
-  
-        <h3>Cruelty-free</h3>
-        <p>Al sinds 1976 tegen dierproeven</p>
-  
-        <h3>100% vegetarisch</h3>
-        <p>Al onze producten zijn vegetarisch, het merendeel is vegan</p>
-      </section>
+        <div class="info-item">
+          <h3>Gratis verzending vanaf $50</h3>
+          <p>
+            Levertijd 3 tot 4 werkdagen. Alle bestellingen worden verzonden met
+            tracking.
+          </p>
+        </div>
 
+        <div class="info-item">
+          <h3>Cruelty-free</h3>
+          <p>Al sinds 1976 tegen dierproeven</p>
+        </div>
+
+        <div class="info-item">
+          <h3>100% vegetarisch</h3>
+          <p>Al onze producten zijn vegetarisch, het merendeel is vegan</p>
+        </div>
+      </section>
     </main>
-    
+
     <footer>
       <h2>Meld je aan voor onze nieuwsbrief!</h2>
-      <input type="email" placeholder="email@nieuwsbrief.com"/>
+      <input type="email" placeholder="email@nieuwsbrief.com" aria-label="Email adres voor nieuwsbrief" />
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>

@@ -1,6 +1,3 @@
-
-
-
 :root {
   /* Basis kleuren (light mode) */
   --color-bg: #ffffff;
@@ -20,8 +17,6 @@
   --color-infogroen-bg: #e5e6cb;
   --color-items-text: #000000;
 }
-
-
 
 
 .topbalk {
@@ -192,7 +187,6 @@ h3 {
   scroll-snap-align: start;
   width: 165px;
   height: 165px;
-  background-color: #00514B;  
 }
 
 .carousel2 {
@@ -222,21 +216,17 @@ ul {
 }
 
 .carousel li button {
-  color: rgb(0, 0, 0);
   font-size: 13px;
   border: 2px solid #000;
   transition: background-color 0.3s ease, color 0.3s ease;
   padding: 15px 25px;
-  font-size: 13px;
   background-color: #ffffff;
-  color: #ffffff;
   border-radius: 5px;
   font-family: "aktiv-grotesk-thin", sans-serif;
-  color: black;
   padding: 12px;
 }
 
-.carousel li button:active {
+.carousel li button:focus {
   background-color: #000000; 
   color: white;         
 }
@@ -282,6 +272,8 @@ footer input::placeholder {
   color: #888;               
 }
 
+
+  
 
 .infogroen h3 {
   font-size: 16px;
@@ -339,49 +331,6 @@ height: 10px;
   }
 }
 
-
-
-
-
-/* Tip van klasgenoot css tricks: Dark Mode*/
-
-   /*@media (prefers-color-scheme: dark) {
-
-    body, html {
-      background: #0d0d0d;
-      color: #eaeaea;
-    }
-  
-    .topbalk { background: #111; }
-  
-    .bovenste-balk { 
-      background: #033629;
-      color: #fff;
-    }
-  
-    h2, h3, 
-    p, .items p,
-    .nieuwtekst, .nieuwtekstp {
-      color: #eaeaea;
-    }
-  
-    .infogroen {
-      background: #22221a;
-    }
-  
-    button,
-    .tekst button,
-    .carousel li button {
-      background: #0b4637;
-      color: #fff;
-    }
-  }
-  
-
-  .productpagina h2 {
-  text-align: left;
-  }
-*/
 
 body {
   background-color: var(--color-bg);
@@ -456,16 +405,6 @@ button,
 
 /* aparte styling productpagina*/
 
-#Shea h2 {
-text-align: left;
-padding-left: 15px;
-}
-
-#Shea p {
-  text-align: left;
-  padding-left: 15px;
-  }
-  
 
 #ML button {
   color: rgb(0, 0, 0);
@@ -476,12 +415,235 @@ padding-left: 15px;
   font-size: 13px;
   background-color: #ffffff;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 3px;
   font-family: "aktiv-grotesk-thin", sans-serif;
   color: black;
-  padding: 12px;
+  margin: 4px;
+  margin-bottom: 15px;
+}
+
+
+#ML button:focus {
+  background-color: #000000; 
+  color: white;         
 }
 
 
 
+.shea p:first-child {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 32px;
+  font-family: "PT Serif", serif;
+}
 
+.shea p:nth-child(2) {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shea p:nth-child(3) {
+  padding-left: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.shea p {
+  padding-left: 15px;
+}
+
+
+.shea2 p {
+  padding-left: 15px;
+}
+
+
+/*hamburger menu, bron: hulp gekregen van klasgenoot, Dlo pagina en hulp met ordenen door chatgpt.*/
+.hamburger {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 22px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0;
+  z-index: 6000;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-text);
+  border-radius: 2px;
+  display: block;
+}
+
+/* Menu paneel */
+.menu {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 280px;
+  height: calc(100vh - 80px);
+  background: var(--color-bg);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 5000;
+  padding: 24px;
+}
+
+.menu.toonMenu {
+  transform: translateX(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 14px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: "aktiv-grotesk-thin", sans-serif;
+}
+
+/* Sluitknop */
+.sluit {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+/* Donkere overlay */
+.overlay {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background: rgba(0,0,0,0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 4000;
+}
+
+.overlay.actief {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+.accordion summary {
+  list-style: none;        
+  cursor: pointer;
+  position: relative;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+
+.accordion p {
+  list-style: none;       
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;    
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+
+.accordion ul {
+  list-style: none;       
+  position: relative;
+  padding-right: 25px;    
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.accordion summary::after {
+  content: "▸";
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+.accordion[open] summary::after {
+  transform: rotate(90deg);
+}
+
+
+li button {
+  margin-right: 40px;
+}
+
+.gerelateerde-producten p:first-child {
+  font-size: 18px;
+  font-family: "aktiv-grotesk-thin", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+
+
+/* Tip van klasgenoot css tricks: Dark Mode -> oude darmode*/
+
+   /*@media (prefers-color-scheme: dark) {
+
+    body, html {
+      background: #0d0d0d;
+      color: #eaeaea;
+    }
+  
+    .topbalk { background: #111; }
+  
+    .bovenste-balk { 
+      background: #033629;
+      color: #fff;
+    }
+  
+    h2, h3, 
+    p, .items p,
+    .nieuwtekst, .nieuwtekstp {
+      color: #eaeaea;
+    }
+  
+    .infogroen {
+      background: #22221a;
+    }
+  
+    button,
+    .tekst button,
+    .carousel li button {
+      background: #0b4637;
+      color: #fff;
+    }
+  }
+  
+
+  .productpagina h2 {
+  text-align: left;
+  }
+*/
