@@ -33,78 +33,113 @@
         </a>
       </div>
 
-      <nav class="menu">
-        <button class="sluit">✕</button>
-        <ul>
-          <li><a href="productpagina.html">LICHAAM / BODYCARE</a></li>
-          <li><a href="productpagina.html">GEZICHT / SKINCARE</a></li>
-          <li><a href="productpagina.html">HAAR / HAIRCARE</a></li>
-          <li><a href="productpagina.html">MAKE-UP</a></li>
-          <li><a href="productpagina.html">PARFUMS & GEURLIJNEN</a></li>
-          <li><a href="productpagina.html">CADEAUS</a></li>
-        </ul>
-      </nav>
-    </header>
+<!-- hamburger menu -->
+<nav class="menu">
+  <button class="sluit">✕</button>
+  <ul>
+    <li><a href="productpagina.html">LICHAAM / BODYCARE</a></li>
+    <li><a href="productpagina.html">GEZICHT / SKINCARE</a></li>
+    <li><a href="productpagina.html">HAAR / HAIRCARE</a></li>
+    <li><a href="productpagina.html">MAKE-UP</a></li>
+    <li><a href="productpagina.html">PARFUMS & GEURLIJNEN</a></li>
+    <li><a href="productpagina.html">CADEAUS</a></li>
+  </ul>
+</nav>
+
+<!-- desktop -->
+<nav class="desktop-nav">
+  <ul>
+    <li><a href="productpagina.html">LICHAAM / BODYCARE</a></li>
+    <li><a href="productpagina.html">GEZICHT / SKINCARE</a></li>
+    <li><a href="productpagina.html">HAAR / HAIRCARE</a></li>
+    <li><a href="productpagina.html">MAKE-UP</a></li>
+    <li><a href="productpagina.html">PARFUMS & GEURLIJNEN</a></li>
+    <li><a href="productpagina.html">CADEAUS</a></li>
+    <li><a href="productpagina.html" class="outlet">OUTLET</a></li>
+  </ul>
+ </nav>
+</header>
+
 
     <main>
-        <ul class="carousel2">
-          <li>
-            <a href="productpagina.html">
+      <section class="product-detail">
+        <!-- Product afbeeldingen -->
+        <div class="product-images">
+          <ul class="carousel2">
+            <li>
               <img src="images/sheabutter.png" alt="Shea Body Butter" />
-            </a>
-          </li>
-          <li>
-            <a href="productpagina.html">
+            </li>
+            <li>
               <img src="images/sheabutter2.png" alt="Shea Body Butter" />
-            </a>
-          </li>
-          <li>
-            <a href="productpagina.html">
+            </li>
+            <li>
               <img src="images/potjeshea.png" alt="Shea Body Butter" />
-            </a>
-          </li>
-          <li>
-            <a href="productpagina.html">
+            </li>
+            <li>
               <img src="images/bodyshea.png" alt="Shea Body Butter" />
-            </a>
-          </li>
-          <li>
-            <a href="productpagina.html">
+            </li>
+            <li>
               <img src="images/sheaa.png" alt="Shea Body Butter" />
-            </a>
-          </li>
-          <li>
-            <a href="productpagina.html">
-              <img src="images/sheabutter.png" alt="Shea Body Butter" class="bestsellers" />
-            </a>
-          </li>
-        </ul>
+            </li>
+            <li>
+              <img src="images/sheabutter.png" alt="Shea Body Butter" />
+            </li>
+          </ul>
+        </div>
+    
+        <!-- Product info -->
+        <div class="product-info">
+          <div class="shea">
+            <h1>Shea Body Butter</h1>
+            <p>7,00 €</p>
+            <p>140,00 € / l</p>
+            <p>Deze extra rijke body butter maakt je huid superzacht en hydrateert haar 96 uur lang.</p>
+    
+            <h2>Inhoud</h2>
+            <p>50 ml</p>
+          </div>
+    
+          <ul>
+            <li id="ML">
+              <button type="button">50 ML</button>
+              <button type="button">200 ML</button>
+              <button type="button">400 ML</button>
+            </li>
+            <li>
+              <button type="button">VOEG TOE AAN WINKELWAGENTJE - 7,00 €</button>
+            </li>
+          </ul>
+    
+          <div class="info2">
+            <div class="infoblok">
+              <img src="images/vegan.png" alt="Icon Vegan">
+              <p>100% vegetarisch</p>
+            </div>
+          
+            <div class="infoblok">
+              <img src="images/dieren.png" alt="Icon Niet getest op dieren">
+              <p>Nooit getest op dieren</p>
+            </div>
+          
+            <div class="infoblok">
+              <img src="images/verzending.png" alt="Icon Verzending">
+              <p>Gratis verzending vanaf 50 €</p>
+            </div>
+          
+            <div class="infoblok">
+              <img src="images/1976ontstaan.png" alt="Icon Opgericht sinds 1976">
+              <p>Changemaking Beauty since 1976</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div class="shea">
-        <p>Shea Body Butter</p>
-        <p>7,00 €</p>
-        <p>140,00 € / l</p>
-        <p>Deze extra rijke body butter maakt je huid superzacht en hydrateert haar 96 uur lang.</p>
-        <p>Inhoud</p>
-        <p>50 ml</p>
-      </div>
-
-      <div class="product-options">
-        <ul>
-          <li id="ML">
-            <button type="button">50 ML</button>
-            <button type="button">200 ML</button>
-            <button type="button">400 ML</button>
-          </li>
-
-          <li>
-            <button type="button">VOEG TOE AAN WINKELWAGENTJE - 7,00 €</button>
-          </li>
-
-        </ul>
-
+ 
+     <section>
         <details class="accordion">
-          <summary>Wat levert het je op?</summary>
+          <summary>
+            <h2>Wat levert het je op?</h2>
+          </summary>
           <p>
             Bescherm en verzorg je superdroge huid als nooit tevoren met onze legendarische
             Shea Body Butter. Het maakt je huid zachter, gladder en geeft 'm 96 uur lang
@@ -127,13 +162,17 @@
         </details>
 
         <details class="accordion">
-          <summary>Gebruik</summary>
+          <summary>
+            <h2>Gebruik</h2>
+          </summary>
           <p>Breng het product spaarzaam of royaal aan op de huid, zowel overdag als 's nachts.</p>
           <p>Waarschuwing: Niet op het gezicht gebruiken. Bewaar op een koele plek. Niet om op te eten. Buiten bereik van kinderen houden.</p>
         </details>
 
         <details class="accordion">
-          <summary>Ingrediënten</summary>
+          <summary>
+            <h2>Ingrediënten</h2>
+          </summary>
           <p>
             Aqua/Water/Eau, C12-15 Alkyl Benzoate, Betaine, Polysorbate 60, Glycerin, Parfum/Fragrance,
             Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Phenoxyethanol,
@@ -144,7 +183,9 @@
         </details>
 
         <details class="accordion">
-          <summary>Verzending</summary>
+          <summary>
+            <h2>Verzending</h2>
+          </summary>
           <p>7,90 € (DPD) / 8,50 € (DHL) - Gratis verzending vanaf 50 € bestelwaarde</p>
           <p>De levertijd is ongeveer 3 tot 4 werkdagen.</p>
           <p>
@@ -154,16 +195,18 @@
           </p>
         </details>
       </div>
+    </section>
 
+
+    <section>
       <div class="gerelateerde-producten">
-        <p>DIT VIND JE MISSCHIEN OOK LEUK</p>
-
+        <h2>DIT VIND JE MISSCHIEN OOK LEUK</h2>
         <ul class="carousel">
           <li>
             <a href="productpagina.html">
               <img src="images/sheabutter.png" alt="Shea Body Butter" />
             </a>
-            <p>Shea Body Butter</p>
+            <h3>Shea Body Butter</h3>
             <p>96 uur lang hydratatie voor de droge huid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -172,7 +215,7 @@
             <a href="productpagina.html">
               <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
-            <p>Ginger Scalp Care Shampoo</p>
+            <h3>Ginger Scalp Care Shampoo</h3>
             <p>Voor een droge, schilferige hoofdhuid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -181,7 +224,7 @@
             <a href="productpagina.html">
               <img src="images/sheabutter.png" alt="Shea Body Butter" />
             </a>
-            <p>Shea Body Butter</p>
+            <h3>Shea Body Butter</h3>
             <p>96 uur lang hydratatie voor de droge huid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -190,7 +233,7 @@
             <a href="productpagina.html">
               <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
-            <p>Ginger Scalp Care Shampoo</p>
+            <h3>Ginger Scalp Care Shampoo</h3>
             <p>Voor een droge, schilferige hoofdhuid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -199,7 +242,7 @@
             <a href="productpagina.html">
               <img src="images/gingerscalp.png" alt="Ginger Scalp Care Shampoo" />
             </a>
-            <p>Ginger Scalp Care Shampoo</p>
+            <h3>Ginger Scalp Care Shampoo</h3>
             <p>Voor een droge, schilferige hoofdhuid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
@@ -208,19 +251,75 @@
             <a href="productpagina.html">
               <img src="images/gingerscalp.png" alt="Ginger Scalp Shampoo" />
             </a>
-            <p>Ginger Scalp Care Shampoo</p>
+            <h3>Ginger Scalp Care Shampoo</h3>
             <p>Voor een droge, schilferige hoofdhuid</p>
             <p>Vanaf 5,25</p>
             <button>VOEG TOE AAN WINKELWAGENTJE</button>
           </li>
         </ul>
-      </div>
-    </main>
+    </section>
+   </main>
 
-    <footer>
+   <footer>
+    <section>
       <h2>Schrijf je in voor onze nieuwsbrief</h2>
-      <input type="email" placeholder="email@nieuwsbrief.com" aria-label="Email adres voor nieuwsbrief" />
-    </footer>
+      <p>
+        Meld je aan voor e-mails en/of sms'jes. Dan ben je altijd als eerste op de 
+        hoogte van nieuwe producten, exclusieve aanbiedingen en het laatste nieuws 
+        van The Body Shop.
+      </p>
+      
+      <form>
+        <input type="email" placeholder="email@nieuwsbrief.com" required />
+        <button type="submit">AANMELDEN</button>
+      </form>
+    </section>
+  
+    <section class="footer-links">
+      <div>
+        <h3>Levering & retourneren</h3>
+        <p>€ 7,90 (DPD) / € 8,50 (DHL)</p>
+        <p>GRATIS verzending vanaf een bestelbedrag van € 50</p>
+        <p>De levertijd is 3 tot 4 werkdagen</p>
+        <p>Gratis retourneren binnen 14 dagen</p>
+      </div>
+  
+      <div>
+        <h3>Over ons</h3>
+        <ul>
+          <li><a href="#">Onze geschiedenis</a></li>
+          <li><a href="#">Over ons</a></li>
+          <li><a href="#">Verpakkingen</a></li>
+          <li><a href="#">Werken bij The Body Shop</a></li>
+        </ul>
+      </div>
+  
+      <div>
+        <h3>Service</h3>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Algemene voorwaarden</a></li>
+          <li><a href="#">Verzending</a></li>
+          <li><a href="#">Retourneren en restitutie</a></li>
+          <li><a href="#">Privacyverklaring</a></li>
+          <li><a href="#">Onze winkels</a></li>
+          <li><a href="#">Lopende aanbiedingen – voorwaarden</a></li>
+        </ul>
+
+      <div>
+        <h3>Onze producten</h3>
+        <ul>
+          <li><a href="#">Bestsellers</a></li>
+          <li><a href="#">Lichaam / Bodycare</a></li>
+          <li><a href="#">Gezicht / Skincare</a></li>
+          <li><a href="#">Haar / Haircare</a></li>
+          <li><a href="#">Make-up</a></li>
+          <li><a href="#">Parfums & geurlijnen</a></li>
+          <li><a href="#">Cadeaus</a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
 
   </body>
 </html>
