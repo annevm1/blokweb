@@ -181,6 +181,10 @@ Wat wil ik vragen tijdens het voortgangsgesprek?
 - Om de screenreader te verbeteren zitten er hidden h1 met paginatitels in de code zodat deze worden voorgelezen maar niet zichtbaar zijn. Hierdoor kunnen mensen die gebruik maken van de screenreader beter volgen waar zij zich bevinden. 
 - Content beweegt mee (responsive) 
 
+
+Toegevoegd voor herkansing:
+- HTML code geordend zodat screenreaders de h2 en h3 lezen maar de content wel blijft staan als een img erboven staat. Dit heb ik gedaan door de order -1 te geven in css.
+
 </details>
 
 

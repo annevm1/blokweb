@@ -312,6 +312,15 @@ button {
   color: var(--color-items-text);
 }
 
+.items a {
+  display: flex;
+  flex-direction: column;
+}
+
+.items a img {
+  order: -1;
+}
+
 
 
 .carousel {
@@ -374,6 +383,14 @@ button {
   height: auto;
 }
 
+.carousel li {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel li a {
+  order: -1; 
+}
 
 
 .nieuwtekst {
@@ -409,6 +426,16 @@ button {
   text-align: center;
   margin-top: 2em;
 }
+
+.nieuw-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.nieuw-item .nieuwfoto {
+  order: -1; 
+}
+
 
 
 
@@ -711,7 +738,7 @@ footer button:hover {
     display: none;
   }
 
-  /* Nieuw items */
+ 
   .nieuw-item {
     flex-direction: row;
     justify-content: center;
